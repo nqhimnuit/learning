@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Page</title>
+</head>
+
+<body>
+
+  <h1 id="heading1">Demo Links</h1>
+  <ul id="link-list">
+    <li>Absolute link: <a href="https://duckduckgo.com/" target="_blank">Go to Duck duck Go</a></li>
+    <li>Relative link: <a href="index.html" target="_top">Go to Gallery</a></li>
+    <li>Image link: <a href="https://www.linux.org/"><img src="imgs/tux.ico" alt="Tux logo"></a></li>
+  </ul>
+
+  Embedded links:<br>
+  <ul>
+    <li><a href="#heading1">Heading 1</a></li>
+    <li><a href="#link-list">Unordered list of links</a></li>
+  </ul>
+
+  <hr>
+
+  <table border="1">
+    <tr>
+      <td>#</td>
+      <th>Hero name</th>
+      <th>Real name</th>
+      <th>Net worth</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nightwing</td>
+      <td>Dick Grayson</td>
+      <td>10'000'</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Catwoman</td>
+      <td>Selina Kyle</td>
+      <td>10'000</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td rowspan="2">The Dark knight</td>
+      <td>Batman</td>
+      <td>10'000'000'000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Bruce Wayne</td>
+      <td>10'000'000'000</td>
+    </tr>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total:</td>
+        <td>20'000'020'000</td>
+      </tr>
+    </tfoot>
+    <caption>DC Heroes net worth</caption>
+  </table>
+
+  <label for="batman-meter">Nightwing</label>
+  <meter id="batman-meter" min="0" max="100" value="89"></meter>
+  <br>
+
+  <label for="catwoman-meter">Catwoman</label>
+  <meter id="catwoman-meter" min="0" max="100" value="69"></meter>
+  <br>
+
+  <label for="batminh-meter">Batman</label>
+  <meter id="batminh-meter" min="0" max="100" value="189">189%</meter>
+  <br>
+
+  <label for="download-bar">Downloading progress:</label>
+  <progress id="download-bar"></progress>
+
+  <footer>
+    <p>
+      <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="new logo">
+      This page was created by Troy &amp; Colleen van Lent. To learn more about web design, visit
+      <a href="http://www.intro-webdesign.com">Intro to Web Design</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
